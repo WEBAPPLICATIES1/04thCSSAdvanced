@@ -1,0 +1,56 @@
+nav ul {
+    list-style-type: none;
+    /* geen bullets */
+    padding: 0;
+    margin: 0;
+    width: 175px;
+    /* breedte van 1 item van de navigatiebalk */
+    border-bottom: 1px dashed #999;
+    /* onderrand instellen voor de volledige
+                                    navigatiebalk (er is geen onderrand
+				  voor een item afzonderlijk: zie li a) */
+}
+
+nav li a {
+    color: #000;
+    /* tekstkleur is zwart */
+    font-size: 11px;
+    /* tekstgrootte is 11px */
+    text-transform: uppercase;
+    /* items van de navigatie staan in hoofdletters */
+    text-decoration: none;
+    /* link wordt niet onderlijnd */
+    border: 1px dashed #999;
+    /* rand instellen */
+    border-bottom: none;
+    /* geen onderrand per item => geen dubbele rand */
+    padding: 7px 5px 7px 30px;
+    display: block;
+    /* a wordt een block element, anders werkt padding niet */
+    background-color: #E7E7E7;
+    /* achtergrondkleur is lichtgrijs */
+    background-image: url(../images/pixy.png);
+    /* achtergrondafbeelding */
+    background-repeat: no-repeat;
+    /* de achtergrond wordt niet herhaald */
+    background-position: 0px 2px;
+    /* de achtergrond begint op 0px 2px */
+}
+
+a:hover {
+    font-weight: bold;
+    /* tekst wordt in vet geplaatst */
+    background-color: #B2F511;
+    /* achtergrondkleur wordt groen */
+    background-position: 0px -36px;
+    /* de achtergrond begint op 0px 36px naar beneden */
+}
+
+.active {
+    background-color: #FFFFFF;
+    /* achtergrondkleur is wit */
+    background-position: 0px -72px;
+    /* de achtergrond begint op 0px 72px naar beneden */
+    font-weight: bold;
+    /* de tekst wordt in vet geplaatst */
+}

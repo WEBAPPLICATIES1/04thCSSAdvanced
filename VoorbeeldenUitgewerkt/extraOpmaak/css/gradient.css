@@ -1,0 +1,11 @@
+#gradient {
+    background: linear-gradient(#336666, #66cccc);
+    height: 150px;
+    width: 300px;
+}
+
+#gradient2 {
+    background: radial-gradient(circle, #336666, #66cccc);
+    height: 150px;
+    width: 300px;
+}
